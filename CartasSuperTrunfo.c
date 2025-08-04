@@ -30,8 +30,9 @@ int main() {
      // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     //Aqui eu utlizei printf e scanf para exibir solicitações e guarda-las nas variáveis.
-    printf("Digite a letra do Estado da carta 1: ");
-    scanf(" %c", &Estado01);
+    printf("Digite a letra do Estado da carta 1: "); //utilizei printf para enviar uma mensagem solicitando a letra do Estado.
+    scanf(" %c", &Estado01);//utilizei scanf para guardar a informação na variável Estado01
+    //utilizei printf e scanf para basicamente as mesmas finalidades abaixo.
 
     printf("Digite o código da carta 1: ");
     scanf("%3s", &Codigo01);
@@ -72,11 +73,12 @@ int main() {
     printf("Digite o número de pontos turísticos da carta 2: ");
     scanf("%d", &PontosTuristicos02);
 
-    printf("Carta 01 \n Estado: %c \n Código: %3s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %f \n PIB: %f \n Pontos Turísticos: %d \n", Estado01, Codigo01, NomeCity01, População01, Area01, PIB01, PontosTuristicos01);
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Carta 01 \n Estado: %c \n Código: %3s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %f \n PIB: %f \n Pontos Turísticos: %d \n", Estado01, Codigo01, NomeCity01, População01, Area01, PIB01, PontosTuristicos01); //utilizei printf para imprimir/exibir na tela os dados que foram cadastrados.
+
     printf("Carta 02 \n Estado: %c \n Código: %3s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %f \n PIB: %f \n Pontos Turísticos: %d \n", Estado02, Codigo02, NomeCity02, População02, Area02, PIB02, PontosTuristicos02);
 
 
