@@ -40,7 +40,7 @@ int main() {
     //utilizei printf e scanf para basicamente as mesmas finalidades abaixo.
 
     printf("Digite o código da carta 1: ");
-    scanf("%3s", &Codigo01);
+    scanf("%s", &Codigo01);
 
     printf("Digite o nome da cidade da carta 1: ");
     scanf("%s", &NomeCity01);
@@ -65,7 +65,7 @@ int main() {
     scanf(" %c", &Estado02);
 
     printf("Digite o código da carta 2: ");
-    scanf("%3s", &Codigo02);
+    scanf("%s", &Codigo02);
 
     printf("Digite o nome da cidade da carta 2: ");
     scanf("%s", &NomeCity02);
@@ -83,15 +83,15 @@ int main() {
     scanf("%d", &PontosTuristicos02);
 
     DensidadePopulacional02 = (float) Populacao02 / Area02;//Aqui eu usei casting para transformar os dados da população e da área em dados decimais antes da divisão e o resultado da divisão vai ser atribuido à variavél densidade da carta 2
-    PIBperCapita01 = (float) PIB02 / Populacao02;//Usei o casting para transformar os dados da população e do PIB em dados decimais antes da divisão e o resultado da divisão vai ser atribuido à variavél PIBperCapita da carta 2
+    PIBperCapita02 = (float) PIB02 / Populacao02;//Usei o casting para transformar os dados da população e do PIB em dados decimais antes da divisão e o resultado da divisão vai ser atribuido à variavél PIBperCapita da carta 2
 
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-    printf("Carta 01 \n Estado: %c \n Código: %3s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %f \n PIB: %f \n Pontos Turísticos: %d \n", Estado01, Codigo01, NomeCity01, Populacao01, Area01, PIB01, PontosTuristicos01); //utilizei printf para imprimir/exibir na tela os dados que foram cadastrados.
+    printf("Carta 01 \n Estado: %c \n Código: %s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %.2f km²\n PIB: %.2f \n Pontos Turísticos: %d \n Densidade Populacional: %.2f hab/km²\n PIB per Capita: %.2f reais\n", Estado01, Codigo01, NomeCity01, Populacao01, Area01, PIB01, PontosTuristicos01, DensidadePopulacional01, PIBperCapita01); //utilizei printf para imprimir/exibir na tela os dados que foram cadastrados.
 
-    printf("Carta 02 \n Estado: %c \n Código: %3s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %f \n PIB: %f \n Pontos Turísticos: %d \n", Estado02, Codigo02, NomeCity02, Populacao02, Area02, PIB02, PontosTuristicos02);
+    printf("Carta 02 \n Estado: %c \n Código: %s \n Nome da Cidade: %s \n Número da habitantes: %d \n Área: %.2f km² \n PIB: %.2f \n Pontos Turísticos: %d \n Densidade Populacional: %.2f hab/km²\n PIB per Capita: %.2f reais\n", Estado02, Codigo02, NomeCity02, Populacao02, Area02, PIB02, PontosTuristicos02, DensidadePopulacional02, PIBperCapita02);
 
 
 
