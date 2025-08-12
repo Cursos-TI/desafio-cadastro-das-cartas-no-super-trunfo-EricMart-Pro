@@ -19,7 +19,6 @@ int main() {
     int PontosTuristicos01;
     float DensidadePopulacional01; //Essa é a variavél do tipo float onde será armazenado um valor decimal referente à Densidade Populacional da carta 1
     float PIBperCapita01;//Essa é a variavél do tipo float onde será armazenado um valor decimal referente ao PIB per Capita da Carta 1
-    float SuperPoder01; //Essa é a variável de ponto flutuante nomeada super poder da carta 1 
 
 //Aqui estão as variáveis da Carta 02
     char Estado02;
@@ -101,7 +100,7 @@ int main() {
 
 
     //Exibição da Comparação entre as cartas
-    printf("Comparação de cartas: \n População: %d \n Área: %d \n PIB: %d \n Pontos Turísticos: %d \n Densidade Populacional: %d \n PIB per Capita: %d \n Super Poder: %d \n", Populacao01 > Populacao02, Area01 > Area02, PIB01 > PIB02, PontosTuristicos01 > PontosTuristicos02, DensidadePopulacional01 < DensidadePopulacional02, PIBperCapita01 > PIBperCapita02, SuperPoder01 > SuperPoder02);//Usei printf para imprimir os resultados: 1 (Carta 1 vencedora) e 2 (Carta 2 Vencedora), também usei os operadores relacionais na mesma função para que se pudesse determinar o resultado
+    printf("Comparação de cartas: \n População: %d \n Área: %d \n PIB: %d \n Pontos Turísticos: %d \n Densidade Populacional: %d \n PIB per Capita: %d \n Super Poder: %d \n", Populacao01 > Populacao02, Area01 > Area02, PIB01 > PIB02, PontosTuristicos01 > PontosTuristicos02, DensidadePopulacional01 < DensidadePopulacional02, PIBperCapita01 > PIBperCapita02, SuperPoder01 > SuperPoder02);//Usei printf para imprimir os resultados: 1 (Carta 1 vencedora) e 2 (Carta 2 Vencedora), também usei os operadores relacionais na mesma função para que se pudesse determinar o resultado, porém, ganha no atributo de Densidade Populacional quem tiver o menor valor
 
 
 
