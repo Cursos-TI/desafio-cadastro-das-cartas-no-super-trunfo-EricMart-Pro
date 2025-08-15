@@ -19,6 +19,7 @@ int main() {
     int PontosTuristicos01;
     float DensidadePopulacional01; //Essa é a variavél do tipo float onde será armazenado um valor decimal referente à Densidade Populacional da carta 1
     float PIBperCapita01;//Essa é a variavél do tipo float onde será armazenado um valor decimal referente ao PIB per Capita da Carta 1
+    float SuperPoder01;
 
 //Aqui estão as variáveis da Carta 02
     char Estado02;
